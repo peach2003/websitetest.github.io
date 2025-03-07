@@ -4,26 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Hiện Đại</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=40&h=40&fit=crop" alt="Logo"
+                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=40&h=40&fit=crop" alt="Profile"
                     class="logo-img">
-                <span>Brand Name</span>
+                <span>Portfolio</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#trang-chu">Trang chủ</a></li>
-                <li><a href="#gioi-thieu">Giới thiệu</a></li>
-                <li><a href="#san-pham">Sản phẩm</a></li>
-                <li><a href="#dich-vu">Dịch vụ</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#lien-he">Liên hệ</a></li>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Về tôi</a></li>
+                <li><a href="#education">Học vấn</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
             </ul>
             <div class="mobile-menu">
                 <i class="fas fa-bars"></i>
@@ -32,134 +34,181 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="hero-content">
-                <h1>Giải Pháp Sáng Tạo Cho Doanh Nghiệp</h1>
-                <p>Chúng tôi cung cấp các giải pháp công nghệ tiên tiến giúp doanh nghiệp của bạn phát triển trong kỷ
-                    nguyên số.</p>
+                <h1>Xin chào, tôi là Đỗ Thành Đào</h1>
+                <p class="typing-text">Sinh viên ngành Công nghệ Thông tin</p>
                 <div class="hero-buttons">
-                    <button class="cta-button primary">Khám Phá Ngay</button>
-                    <button class="cta-button secondary">Xem Demo</button>
+                    <a href="#projects" class="cta-button primary">Xem Portfolio</a>
+                    <a href="#contact" class="cta-button secondary">Liên hệ</a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop"
-                    alt="Hero Image">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop"
+                    alt="Developer">
             </div>
         </section>
 
-        <section class="about" id="gioi-thieu">
+        <section class="about" id="about">
             <div class="about-content">
                 <div class="about-text">
-                    <h2>Về Chúng Tôi</h2>
-                    <p>Với hơn 10 năm kinh nghiệm trong lĩnh vực công nghệ, chúng tôi tự hào là đối tác tin cậy của
-                        nhiều doanh nghiệp lớn nhỏ trên toàn quốc.</p>
-                    <ul class="about-features">
-                        <li><i class="fas fa-check"></i> Đội ngũ chuyên gia giàu kinh nghiệm</li>
-                        <li><i class="fas fa-check"></i> Giải pháp tùy chỉnh theo nhu cầu</li>
-                        <li><i class="fas fa-check"></i> Hỗ trợ 24/7</li>
-                    </ul>
+                    <h2>Về Tôi</h2>
+                    <p>Tôi là sinh viên năm cuối tại Trường Đại học ABC, với đam mê về lập trình và phát triển phần mềm.
+                        Tôi luôn tìm kiếm cơ hội để học hỏi và phát triển bản thân trong lĩnh vực công nghệ.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Sinh viên năm 4</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-code"></i>
+                            <span>Web Developer</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>TP.HCM, Việt Nam</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=300&fit=crop"
-                        alt="About Us">
+                    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=500&h=300&fit=crop"
+                        alt="Profile Photo">
                 </div>
             </div>
         </section>
 
-        <section class="services" id="dich-vu">
-            <h2>Dịch Vụ Của Chúng Tôi</h2>
-            <div class="service-grid">
-                <div class="service-card">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Phát Triển Web</h3>
-                    <p>Thiết kế và phát triển website chuyên nghiệp, tối ưu trải nghiệm người dùng</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Ứng Dụng Di Động</h3>
-                    <p>Phát triển ứng dụng di động đa nền tảng với công nghệ hiện đại</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Digital Marketing</h3>
-                    <p>Giải pháp marketing toàn diện cho doanh nghiệp của bạn</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-cloud"></i>
-                    <h3>Cloud Solutions</h3>
-                    <p>Giải pháp đám mây an toàn và linh hoạt</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="portfolio" id="san-pham">
-            <h2>Dự Án Tiêu Biểu</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop"
-                        alt="Project 1">
-                    <div class="portfolio-overlay">
-                        <h3>Dự án 1</h3>
-                        <p>Website Thương mại điện tử</p>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop"
-                        alt="Project 2">
-                    <div class="portfolio-overlay">
-                        <h3>Dự án 2</h3>
-                        <p>Ứng dụng Mobile Banking</p>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&h=300&fit=crop"
-                        alt="Project 3">
-                    <div class="portfolio-overlay">
-                        <h3>Dự án 3</h3>
-                        <p>Hệ thống Quản lý Nhân sự</p>
+        <section class="education" id="education">
+            <h2>Học Vấn</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Đại học ABC</h3>
+                        <p class="timeline-period">2020 - Hiện tại</p>
+                        <p>Chuyên ngành: Công nghệ Thông tin</p>
+                        <p>GPA: 3.5/4.0</p>
+                        <ul class="achievements">
+                            <li>Thành viên CLB Lập trình</li>
+                            <li>Đạt học bổng khuyến khích học tập</li>
+                            <li>Tham gia các dự án nghiên cứu sinh viên</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="testimonials">
-            <h2>Khách Hàng Nói Gì?</h2>
-            <div class="testimonial-slider">
-                <div class="testimonial-card">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop"
-                        alt="Client 1" class="client-image">
-                    <p class="testimonial-text">"Dịch vụ chuyên nghiệp, đội ngũ nhiệt tình. Chúng tôi rất hài lòng với
-                        kết quả nhận được."</p>
-                    <h4>Nguyễn Văn A</h4>
-                    <p class="client-position">CEO - Công ty ABC</p>
+        <section class="skills" id="skills">
+            <h2>Kỹ Năng</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Kỹ Năng Lập Trình</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level" style="--level: 90%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level" style="--level: 85%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level" style="--level: 80%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-level" style="--level: 75%"></div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Thêm các testimonial khác -->
+                <div class="skills-category">
+                    <h3>Công Cụ & Framework</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level" style="--level: 85%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-level" style="--level: 70%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="contact" id="lien-he">
-            <h2>Liên Hệ Với Chúng Tôi</h2>
+        <section class="projects" id="projects">
+            <h2>Dự Án Của Tôi</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop"
+                            alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Website Quản lý Sinh viên</h3>
+                        <p>Hệ thống quản lý thông tin và điểm số của sinh viên, được xây dựng bằng React và Node.js</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop"
+                            alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Ứng dụng Todo List</h3>
+                        <p>Ứng dụng quản lý công việc với giao diện người dùng thân thiện, hỗ trợ đa nền tảng</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Liên Hệ</h2>
             <div class="contact-container">
                 <div class="contact-info">
                     <h3>Thông Tin Liên Hệ</h3>
                     <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>123 Đường ABC, Quận XYZ, TP.HCM</p>
+                        <i class="fas fa-envelope"></i>
+                        <p>dothanhdao@example.com</p>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
                         <p>+84 123 456 789</p>
                     </div>
                     <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>contact@example.com</p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>TP.HCM, Việt Nam</p>
                     </div>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
                 <form class="contact-form">
@@ -170,7 +219,7 @@
                         <input type="email" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <input type="tel" placeholder="Số điện thoại">
+                        <input type="text" placeholder="Chủ đề">
                     </div>
                     <div class="form-group">
                         <textarea placeholder="Nội dung tin nhắn"></textarea>
@@ -183,38 +232,13 @@
 
     <footer>
         <div class="footer-content">
-            <div class="footer-section">
-                <h4>Về Chúng Tôi</h4>
-                <p>Chúng tôi là đơn vị tiên phong trong lĩnh vực công nghệ, mang đến những giải pháp tốt nhất cho khách
-                    hàng.</p>
+            <p>&copy; 2024 Đỗ Thành Đạo. Đã đăng ký bản quyền.</p>
+            <div class="footer-links">
+                <a href="#home">Trang chủ</a>
+                <a href="#about">Về tôi</a>
+                <a href="#projects">Dự án</a>
+                <a href="#contact">Liên hệ</a>
             </div>
-            <div class="footer-section">
-                <h4>Dịch Vụ</h4>
-                <ul>
-                    <li><a href="#">Phát triển Web</a></li>
-                    <li><a href="#">Ứng dụng Di động</a></li>
-                    <li><a href="#">Digital Marketing</a></li>
-                    <li><a href="#">Cloud Solutions</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Liên Kết Nhanh</h4>
-                <ul>
-                    <li><a href="#gioi-thieu">Về chúng tôi</a></li>
-                    <li><a href="#dich-vu">Dịch vụ</a></li>
-                    <li><a href="#san-pham">Dự án</a></li>
-                    <li><a href="#lien-he">Liên hệ</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Liên Hệ</h4>
-                <p>Email: contact@example.com</p>
-                <p>Điện thoại: (123) 456-7890</p>
-                <p>Địa chỉ: 123 Đường ABC, Quận XYZ, TP.HCM</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Company Name. Đã đăng ký bản quyền.</p>
         </div>
     </footer>
 
